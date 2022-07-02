@@ -94,18 +94,45 @@ span {
 }
 
 /* start:main */
+
+
 .introduce{
     text-align:center;
     margin: 150px;
+    top:50%;
+    left:50%;
+}
+
+.border {
+    display: flex;
+    align-items: center;
+}
+ 
+.border:before,
+.border:after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background-color: #24292e;
+}
+ 
+.border:before {
+    margin-right: 1rem;
+}
+ 
+.border:after {
+    margin-left: 1rem;
 }
 .yu{
-    border-radius: 50%;
-    height:50%;
+    border-radius: 100%;
+    height:70%;
     width:50%;
 }
 .picture{
     margin:70px;
 }
+
+
 p{
     margin: 1em 0px;   
     color:#0071BC;
@@ -114,6 +141,26 @@ p{
     border-bottom: 1px solid #24292e;
     width: 300px;
     margin:auto;
+}
+.line {
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+.line:before,
+.line:after {
+    content: "";
+    height: 1px;
+    flex-grow: 100;
+    background-color: #24292e;
+}
+ 
+.line:before {
+    margin-right: 1rem;
+}
+ 
+.line:after {
+    margin-left: 1rem;
 }
 .pic{
     display: flex;
@@ -142,7 +189,7 @@ p{
 .dance{
     box-shadow: 3px 3px #ddd;
     width:250px;
-    height: 200;
+    height: 350px;
     margin:30px
 }
 .dance:hover{
@@ -155,7 +202,7 @@ p{
 .run{
     box-shadow: 3px 3px #ddd;
     width:250px;
-    height: 200;
+    height: 350px;
     margin:30px
 }
 .run:hover{
@@ -169,11 +216,33 @@ p{
 .camera{
     box-shadow: 3px 3px #ddd;
     width:250px;
-    height:200;
+    height:350px;
     margin:30px;
 }
 .camera:hover{
     transform: translateY(-0.5em);
+}
+
+.liner {
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+ 
+.liner:before,
+.liner:after {
+    content: "";
+    height: 1px;
+    flex-grow: 5;
+    background-color:#24292e;
+}
+ 
+.liner:before {
+    margin-right: 1rem;
+}
+ 
+.liner:after {
+    margin-left: 1rem;
 }
 
 
@@ -183,6 +252,41 @@ p{
     margin: 100px;
     justify-content: center;
 }
+
+.liners {
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+.liners:before,
+.liners:after {
+    content: "";
+    height: 1px;
+    flex-grow: 5;
+    background-color:#24292e;
+}
+ 
+.linesrs:before {
+    margin-right: 1rem;
+}
+ 
+.liners:after {
+    margin-left: 1rem;
+}
+.teams ul{
+    display: flex;
+    justify-content: space-around;
+    width:150px;
+    height: 150px;
+    border-radius: 100%;
+    text-align: center;
+}
+.teams-li{
+    display: flex;
+    justify-content: space-around;
+}
+
 footer{
+    
     text-align: center;
 }
