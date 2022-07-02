@@ -24,9 +24,19 @@
     color:white;
     padding:5px;
     border-radius: 5px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.12), 0 2px 3px 0 rgba(0,0,0,.22);
+	transition: .3s;
+}
+#header a{
+    color:white;
+    text-decoration: none;
 }
 #header li{
     padding-bottom: 12px;
+}
+#header li:nth-child(4):hover{
+    box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+	transform: translateY(-4px);
 }
 .header-logo{
     padding-top:15px;
@@ -83,6 +93,9 @@
     width:250px;
     height: 300px;
 }
+.baseball:hover{
+    transform: translateY(-0.5em);
+}
 .game-logo{
     width:10%;
     height:10%;
@@ -93,6 +106,9 @@
     margin-left: 10px;
     height:300px;
 }
+.game:hover{
+    transform: translateY(-0.5em);
+}
 .karaoke-logo{
     width:10%;
     height:10%;
@@ -102,6 +118,9 @@
     width:250px;
     margin-left: 10px;
     height: 300px;
+}
+.karaoke:hover{
+    transform: translateY(-0.5em);
 }
 .hobby-miaki{
     display: flex;
