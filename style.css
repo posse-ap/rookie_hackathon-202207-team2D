@@ -1,0 +1,92 @@
+#header ul{
+  list-style: none;
+  display: flex;gap: 30px;
+  align-items: center;
+  margin: auto;
+}
+#header{
+  top:0;
+  padding-top:5px;
+  position:fixed;
+  display: flex;gap: ;
+  align-items: center;
+  width:100%;
+}
+.header-button{
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding:5px;
+}
+#header li{
+  padding-left:25px;
+}
+
+.section-img img{
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+.text{
+color: aqua;
+
+}
+
+#Introduce{
+  padding-top: -100px;
+  text-align: center;
+}
+
+.section-title{
+text-align: center;
+padding: 100px;
+}
+
+
+.img1 img{
+  width:250px;
+  height:250px;
+  border-radius:8px;
+}
+
+
+.text2{
+  color: aqua;
+}
+
+.text3{
+  text-align: center;
+}
+.hobby-nishida{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.hobby-title{
+  text-align: center;
+}
+.section{
+  text-align: center;
+}
+.tennis{
+  width:250px;
+  box-shadow: 3px 3px #dddd;
+  height: 500px;
+}
+.bad{
+  width:250px;
+  box-shadow: 3px 3px #dddd;
+  height: 500px;
+}
+.soccer{
+  width:200px;
+  box-shadow: 3px 3px #dddd;
+  height: 500px;
+}
+.soccer img{
+  width:90%;
+}
+#footer{
+  margin-top:40px;
+}
