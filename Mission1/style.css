@@ -1,0 +1,57 @@
+#header {
+    position: fixed;
+    width:100%;
+    background-color: aliceblue;
+    padding-top: 5px;
+    top: 0px;
+}
+#header ul{
+    display:flex;
+    list-style: none;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+#header li{
+    margin-right: 30px;
+}
+#header li:nth-child(4){
+    background-color: blue;
+    color:white;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+#introduce{
+    margin-top:100px;
+}
+.introduce-img img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+.text {
+    color: blue;
+}
+.description {
+    color: blue;
+}
+#introduce{
+    text-align: center;
+}
+.picture-img img{
+    border-radius: 8%;
+    width: 25%;
+    height: 25%;
+}
+#picture{
+    text-align: center;
+}
+.section{
+    text-align: center;
+}
+.footer {
+    text-align: center;
+}
