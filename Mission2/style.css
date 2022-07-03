@@ -1,0 +1,112 @@
+#header {
+    position: fixed;
+    width:100%;
+    background-color: aliceblue;
+    padding-top: 5px;
+    top: 0px;
+}
+#header ul{
+    display:flex;
+    list-style: none;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+#header li{
+    margin-right: 30px;
+}
+#header ul :nth-child(4){
+    background-color: blue;
+    color:white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: .3s;
+    box-shadow:0 0 3px 0 rgba(0,0,0,.12),0 2 3px 0 rgba(0,0,0,.22);
+}
+#header ul :nth-child(4):hover{
+    box-shadow:0 15px 30px -5px rgba(0,0,0,.15),0 0 5px rgba(0,0,0,.1);
+    transform: translateY(-4px);
+}
+#header a{
+    color:white;
+    text-decoration: none;
+
+}
+#introduce{
+    margin-top:100px;
+}
+.introduce-img img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+.introduce-content p{
+    border-bottom:solid gray;
+}
+.introduce-content{
+    display: inline-block;
+}
+.text {
+    color: blue;
+}
+.description {
+    color: blue;
+}
+#introduce{
+    text-align: center;
+}
+.picture-img img{
+    border-radius: 8%;
+    width: 25%;
+    height: 25%;
+}
+#picture{
+    text-align: center;
+}
+.section{
+    text-align: center;
+}
+.footer {
+    text-align: center;
+}
+.introduce-content p { border-bottom : solid ; }
+.hobby-img img{
+    width: 10%;
+    height: 10%;
+} 
+.hobby-title p {
+    color: blue;
+}
+.hobby-img {
+    display:flex;
+    margin-left:160px;
+}
+#hobby {
+    text-align: center;
+}
+.tennis{
+    width:320px;
+    box-shadow: 3px 3px #dddd;
+}
+.tennis:hover{
+    transform: translateY(-0.5em);
+}
+.cafe{
+    width:320px;
+    box-shadow: 3px 3px #dddd;
+    margin-left: 10px;
+}
+.cafe:hover{
+    transform:translateY(-0.5em);
+}
+.sports{
+    width:320px;
+    box-shadow: 3px 3px #dddd;
+    margin-left: 10px;
+}
+.sports:hover{
+    transform: translateY(-0.5em);
+}
